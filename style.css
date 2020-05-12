@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Global CSS*/
+
+body{
+    background-color: #eee;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+/*Main Dection*/
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*Navigation*/
+.nav{
+    width: 100%;
+    background-color: darkviolet;
+    overflow: hidden;
+    border-bottom: 1px solid #fff;
+}
+.nav ul{
+    list-style: none;
+    width:73%;
+    margin: 0 auto;
+}
+.nav ul li{
+    float: left;
+    width: 120px;
+    border-left: 1px solid #fff;
+}
+
+.x{
+    border-right: 1px solid #fff;
+}
+
+.nav ul li a{
+    color: #fff;
+    padding: 12px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: all 0.5s ease;
+    
+}
+
+
+.nav ul li a:hover{
+    background-color: red;
+}
+
+/*Main Section*/
+
+.main-content{
+    width: 100%;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+.content{
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px 10px 0px;
+    
+}
+
+.content p{
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.6em;
+}
+
+.content h2{
+    color: red;
+    padding-left: 10px;
+}
+.sidebar{
+    width: 30%;
+    float: left;
+}
+
+.sidebar img{
+    max-width: 300px;
+    height: 400px;
+}
+
+
+/*Footer Section*/
+.footer{
+    width: 100%;
+    background-color: #000;
+    margin-top: -4px;
+    
+    
+    
+}
+
+.footer p{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
